@@ -1,0 +1,6 @@
+set xlabel "Number of small files"
+set ylabel "Time to remove small files (s)"
+set key left
+set output "deleting_small_files.png"
+set term png
+plot 'find_delete.txt' using 1:5, 'rsync_empty.txt' using 1:5, 'unlink_perl.txt' using 1:5

@@ -1,0 +1,64 @@
+Numfiles   Size     Method     Time
+448921 10000 find_delete.sh Total: 11.312
+448921 10000 unlink_perl.pl Total: 18.179
+448921 10000 rsync_empty_dir.sh Total: 15.447
+Numfiles   Size     Method     Time
+44892 10000 find_delete.sh Total: 0.741
+44892 10000 unlink_perl.pl Total: 0.886
+44892 10000 rsync_empty_dir.sh Total: 0.888
+Numfiles   Size     Method     Time
+448921 1000 find_delete.sh Total: 9.056
+448921 1000 unlink_perl.pl Total: 11.926
+448921 1000 rsync_empty_dir.sh Total: 9.405
+Numfiles   Size     Method     Time
+4489 10000 find_delete.sh Total: 0.098
+4489 10000 unlink_perl.pl Total: 0.118
+4489 10000 rsync_empty_dir.sh Total: 0.100
+Numfiles   Size     Method     Time
+897843 10000 find_delete.sh Total: 37.091
+897843 10000 unlink_perl.pl Total: 55.385
+897843 10000 rsync_empty_dir.sh Total: 37.286
+Numfiles   Size     Method     Time
+8978 10000 find_delete.sh Total: 0.170
+8978 10000 unlink_perl.pl Total: 0.209
+8978 10000 rsync_empty_dir.sh Total: 0.196
+Numfiles   Size     Method     Time
+89784 1000 find_delete.sh Total: 1.469
+89784 1000 unlink_perl.pl Total: 1.837
+89784 1000 rsync_empty_dir.sh Total: 1.757
+Numfiles   Size     Method     Time
+1346764 10000 find_delete.sh Total: 94.061
+1346764 10000 unlink_perl.pl Total: 159.555
+1346764 10000 rsync_empty_dir.sh Total: 61.090
+Numfiles   Size     Method     Time
+13467 10000 find_delete.sh Total: 0.240
+13467 10000 unlink_perl.pl Total: 0.315
+13467 10000 rsync_empty_dir.sh Total: 0.293
+Numfiles   Size     Method     Time
+134676 1000 find_delete.sh Total: 2.273
+134676 1000 unlink_perl.pl Total: 2.795
+134676 1000 rsync_empty_dir.sh Total: 2.643
+Numfiles   Size     Method     Time
+1795686 10000 find_delete.sh Total: 193.402
+1795686 10000 unlink_perl.pl Total: 312.938
+1795686 10000 rsync_empty_dir.sh Total: 88.476
+Numfiles   Size     Method     Time
+17956 10000 find_delete.sh Total: 0.321
+17956 10000 unlink_perl.pl Total: 0.400
+17956 10000 rsync_empty_dir.sh Total: 0.372
+Numfiles   Size     Method     Time
+179568 1000 find_delete.sh Total: 3.103
+179568 1000 unlink_perl.pl Total: 3.775
+179568 1000 rsync_empty_dir.sh Total: 3.572
+Numfiles   Size     Method     Time
+2244608 10000 find_delete.sh Total: 329.787
+2244608 10000 unlink_perl.pl Total: 564.076
+2244608 10000 rsync_empty_dir.sh Total: 286.114
+Numfiles   Size     Method     Time
+35913 10000 find_delete.sh Total: 0.591
+35913 10000 unlink_perl.pl Total: 0.735
+35913 10000 rsync_empty_dir.sh Total: 0.724
+Numfiles   Size     Method     Time
+359137 1000 find_delete.sh Total: 7.484
+359137 1000 unlink_perl.pl Total: 9.362
+359137 1000 rsync_empty_dir.sh Total: 8.432
