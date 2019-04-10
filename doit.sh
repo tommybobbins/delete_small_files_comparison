@@ -1,4 +1,7 @@
-
+if [ ! -d output ]
+then
+    mkdir output
+fi
 ./run_tests.sh 10 10000
 ./run_tests.sh 20 10000
 ./run_tests.sh 30 10000
@@ -15,3 +18,4 @@
 ./run_tests.sh 3000 10000
 ./run_tests.sh 4000 10000
 ./run_tests.sh 5000 10000
+rsync -av /tmp/small_files* output
