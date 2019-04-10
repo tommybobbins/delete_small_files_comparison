@@ -7,3 +7,4 @@ forloop.sh - for file in dir, rm file
 
 doit.sh runs the tests and produces gnuplot compatible output
 
+Needs tidying up considerably as was written in a hurry to prove how wrong I was.
