@@ -1,6 +1,9 @@
-if [ ! -d output ]
+#!/bin/bash
+OUTPUTDIR=DANNY
+OUTLC=$(echo $OUTPUTDIR | tr [:upper:] [:lower:] )
+if [ ! -d ${OUTPUTDIR} ]
 then
-    mkdir output
+    mkdir ${OUTPUTDIR}
 fi
 ./run_tests.sh 10 10000
 ./run_tests.sh 20 10000
@@ -18,8 +21,8 @@ fi
 ./run_tests.sh 3000 10000
 ./run_tests.sh 4000 10000
 ./run_tests.sh 5000 10000
-rsync -av /tmp/small_files* output
-grep -h find_delete output/* > find_delete.txt
-grep -h rsync_empty output/* >rsync_empty.txt
-grep -h unlink_perl output/* >unlink_perl.txt
+rsync -av /tmp/small_files* ${OUTPUTDIR}/
+grep -h find_delete $OUTPUTDIR/* > find_delete_$OUTLC.txt
+grep -h rsync_empty $OUTPUTDIR/* >rsync_empty_$OUTLC.txt
+grep -h unlink_perl $OUTPUTDIR/* >unlink_perl_$OUTLC.txt
 gnuplot 'plotme'
