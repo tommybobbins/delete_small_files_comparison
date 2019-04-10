@@ -19,7 +19,7 @@ fi
 ./run_tests.sh 4000 10000
 ./run_tests.sh 5000 10000
 rsync -av /tmp/small_files* output
-grep find_delete output/* > find_delete.txt
-grep rsync_empty output/* >rsync_empty.txt
-grep unlink_perl output/* >unlink_perl.txt
+grep -h find_delete output/* > find_delete.txt
+grep -h rsync_empty output/* >rsync_empty.txt
+grep -h unlink_perl output/* >unlink_perl.txt
 gnuplot 'plotme'
