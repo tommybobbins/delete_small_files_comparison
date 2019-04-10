@@ -1,0 +1,2 @@
+Numfiles   Size     Method     Time
+897843 10000 find_delete.sh Total: 68.807
