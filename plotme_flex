@@ -4,4 +4,14 @@ set title "Ecloud Flex SSD file removal"
 set key left
 set output "deleting_small_files_flex.png"
 set term png
-plot [0:3000000][0:700] 'find_delete.txt' using 1:5, 'rsync_empty.txt' using 1:5, 'unlink_perl.txt' using 1:5
+
+plot [0:3000000][0:700] \
+     'find_delete_flex.txt' using 1:5 smooth csplines \
+      title "Flex:find" , \
+     'find_delete_flex.txt' using 1:5 notitle with points, \
+     'rsync_empty_flex.txt' using 1:5 smooth csplines \
+      title "Flex:rsync" , \
+     'rsync_empty_flex.txt' using 1:5 notitle with points, \
+     'unlink_perl_flex.txt' using 1:5 smooth csplines \
+      title "Flex:Perl", \
+     'unlink_perl_flex.txt' using 1:5 notitle with points
