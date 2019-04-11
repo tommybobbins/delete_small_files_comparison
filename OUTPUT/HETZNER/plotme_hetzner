@@ -1,0 +1,17 @@
+set xlabel "Number of small files"
+set ylabel "Time to remove small files (s)"
+set title "Hetzner SSD file removal"
+set key left
+set output "deleting_small_files_hetzner.png"
+set term png
+
+plot [0:2500000][0:10000] \
+     'find_delete_hetzner.txt' using 1:5 smooth csplines \
+      title "Hetzner:find" , \
+     'find_delete_hetzner.txt' using 1:5 notitle with points, \
+     'rsync_empty_hetzner.txt' using 1:5 smooth csplines \
+      title "Hetzner:rsync" , \
+     'rsync_empty_hetzner.txt' using 1:5 notitle with points, \
+     'unlink_perl_hetzner.txt' using 1:5 smooth csplines \
+      title "Hetzner:Perl", \
+     'unlink_perl_hetzner.txt' using 1:5 notitle with points

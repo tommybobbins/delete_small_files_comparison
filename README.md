@@ -52,3 +52,9 @@ Running doit.sh on the provisioned volume. Raw sesults are in FLEX/
 Something very unusual happens here. find . -delete is slower and shows a non-exponential curve. Reproducible. Needs investigation.
 
 ![Small file deletion Flex](deleting_small_files_evo_ssd.png "Deletion of small files Samsung EVO 850")
+
+### Hetzner 100GB SSD.
+
+Running doit.sh on the provisioned volume. Raw sesults are in HETZNER/
+
+![Small file deletion Flex](deleting_small_files_hetzner.png "Deletion of small files Hetzner")
