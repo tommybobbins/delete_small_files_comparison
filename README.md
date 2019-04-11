@@ -22,7 +22,7 @@ Run the tests and produces gnuplot compatible output
 
     doit.sh
 
-This calls run_tests.sh which in turn calls the underlying scripts after generating the necessary files.
+This calls the underlying scripts after generating the necessary files. Performs a sync between each run.
 
 Needs tidying up considerably as was written in a hurry to prove how wrong I was.
 
