@@ -46,3 +46,9 @@ Running doit.sh on the provisioned volume. Raw sesults are in AWS/
 Running doit.sh on the provisioned volume. Raw sesults are in FLEX/
 
 ![Small file deletion Flex](deleting_small_files_flex.png "Deletion of small files Flex")
+
+### SSD Samsung EVO 850 250GB SSD.
+
+Something very unusual happens here. find . -delete is slower and shows a non-exponential curve. Reproducible. Needs investigation.
+
+![Small file deletion Flex](deleting_small_files_evo.png "Deletion of small files Samsung EVO 850")

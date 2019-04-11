@@ -7,11 +7,11 @@ set term png
 
 plot [0:2500000][0:800] \
      'find_delete_evo.txt' using 1:5 smooth csplines \
-      title "AWS:find" , \
+      title "SSD:find" , \
      'find_delete_evo.txt' using 1:5 notitle with points, \
      'rsync_empty_evo.txt' using 1:5 smooth csplines \
-      title "AWS:rsync" , \
+      title "SSD:rsync" , \
      'rsync_empty_evo.txt' using 1:5 notitle with points, \
      'unlink_perl_evo.txt' using 1:5 smooth csplines \
-      title "AWS:Perl", \
+      title "SSD:Perl", \
      'unlink_perl_evo.txt' using 1:5 notitle with points
