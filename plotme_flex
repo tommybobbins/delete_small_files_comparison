@@ -5,7 +5,7 @@ set key left
 set output "deleting_small_files_flex.png"
 set term png
 
-plot [0:3000000][0:700] \
+plot [0:2500000][0:700] \
      'find_delete_flex.txt' using 1:5 smooth csplines \
       title "Flex:find" , \
      'find_delete_flex.txt' using 1:5 notitle with points, \

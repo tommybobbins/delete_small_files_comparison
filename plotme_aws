@@ -5,7 +5,7 @@ set key left
 set output "deleting_small_files_aws.png"
 set term png
 
-plot [0:3000000][0:10000] \
+plot [0:2500000][0:10000] \
      'find_delete_aws.txt' using 1:5 smooth csplines \
       title "AWS:find" , \
      'find_delete_aws.txt' using 1:5 notitle with points, \

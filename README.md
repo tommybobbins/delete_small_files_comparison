@@ -28,7 +28,10 @@ Needs tidying up considerably as was written in a hurry to prove how wrong I was
 
 ## Results
 
+For the below graphs, the lowest value of y is preferential as it represents seconds to remove files.
+
 ### Comparing all platforms
+
 
 ![Small file deletion platform comparison](deleting_small_files_all.png "Deletion of small files multi-platform")
 

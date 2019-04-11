@@ -2,6 +2,6 @@ set xlabel "Number of small files"
 set ylabel "Time to remove small files (s)"
 set title "Ecloud Flex SSD file removal"
 set key left
-set output "deleting_small_files_flex.png"
+set output "deleting_small_files.png"
 set term png
-plot [0:3000000][0:700] 'find_delete.txt' using 1:5, 'rsync_empty.txt' using 1:5, 'unlink_perl.txt' using 1:5
+plot [0:2500000][0:700] 'find_delete.txt' using 1:5, 'rsync_empty.txt' using 1:5, 'unlink_perl.txt' using 1:5
