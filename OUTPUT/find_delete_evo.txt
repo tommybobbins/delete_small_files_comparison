@@ -1,0 +1,16 @@
+448921 10000 find_delete.sh Total: 19.540
+44892 10000 find_delete.sh Total: 0.828
+448921 1000 find_delete.sh Total: 14.263
+4489 10000 find_delete.sh Total: 0.092
+897843 10000 find_delete.sh Total: 65.109
+8978 10000 find_delete.sh Total: 0.175
+89784 1000 find_delete.sh Total: 1.712
+1346764 10000 find_delete.sh Total: 185.770
+13467 10000 find_delete.sh Total: 0.249
+134676 1000 find_delete.sh Total: 2.666
+1795686 10000 find_delete.sh Total: 296.183
+17956 10000 find_delete.sh Total: 0.339
+179568 1000 find_delete.sh Total: 3.561
+2244608 10000 find_delete.sh Total: 454.461
+35913 10000 find_delete.sh Total: 0.684
+359137 1000 find_delete.sh Total: 16.553

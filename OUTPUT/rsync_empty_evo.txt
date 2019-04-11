@@ -1,0 +1,16 @@
+448921 10000 rsync_empty_dir.sh Total: 14.628
+44892 10000 rsync_empty_dir.sh Total: 0.975
+448921 1000 rsync_empty_dir.sh Total: 13.611
+4489 10000 rsync_empty_dir.sh Total: 0.113
+897843 10000 rsync_empty_dir.sh Total: 35.807
+8978 10000 rsync_empty_dir.sh Total: 0.212
+89784 1000 rsync_empty_dir.sh Total: 2.037
+1346764 10000 rsync_empty_dir.sh Total: 55.194
+13467 10000 rsync_empty_dir.sh Total: 0.305
+134676 1000 rsync_empty_dir.sh Total: 3.090
+1795686 10000 rsync_empty_dir.sh Total: 82.557
+17956 10000 rsync_empty_dir.sh Total: 0.394
+179568 1000 rsync_empty_dir.sh Total: 4.140
+2244608 10000 rsync_empty_dir.sh Total: 184.147
+35913 10000 rsync_empty_dir.sh Total: 0.797
+359137 1000 rsync_empty_dir.sh Total: 9.114
