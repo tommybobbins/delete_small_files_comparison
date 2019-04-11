@@ -34,8 +34,12 @@ Needs tidying up considerably as was written in a hurry to prove how wrong I was
 
 ### AWS t2-micro 100GB Provisioned SSD volume
 
+Running doit.sh on the provisioned volume. Raw sesults are in AWS/
+
 ![Small file deletion AWS](deleting_small_files_aws.png "Deletion of small files AWS")
 
 ### ECloud Flex 100GB Provisioned SSD volume
+
+Running doit.sh on the provisioned volume. Raw sesults are in FLEX/
 
 ![Small file deletion Flex](deleting_small_files_flex.png "Deletion of small files Flex")
