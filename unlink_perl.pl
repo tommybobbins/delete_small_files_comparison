@@ -5,4 +5,5 @@
 opendir(DIR, BIGDIR);
 while (my $f = readdir(DIR)) {
 unlink(BIGDIR."/".$f);
+rmdir(BIGDIR);
 }

@@ -53,6 +53,12 @@ Something very unusual happens here. find . -delete is slower and shows a non-ex
 
 ![Small file deletion Flex](deleting_small_files_evo_ssd.png "Deletion of small files Samsung EVO 850")
 
+### Intel 120GB SSDSC2BW120A4 SSD.
+
+Unusual tail off for rsync, but find looks to be the best method here
+
+![Small file deletion Flex](deleting_small_files_intelssd.png "Deletion of small files Samsung EVO 850")
+
 ### Hetzner 100GB SSD.
 
 Running doit.sh on the provisioned volume. Raw sesults are in HETZNER/

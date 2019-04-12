@@ -1,0 +1,4 @@
+Numfiles   Size     Method     Time
+44892 10000 find_delete.sh Total: 4.239
+44892 10000 unlink_perl.pl Total: 5.133
+44892 10000 rsync_empty_dir.sh Total: 4.672

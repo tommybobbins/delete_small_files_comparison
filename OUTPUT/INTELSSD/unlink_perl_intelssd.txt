@@ -1,0 +1,16 @@
+4489 10000 unlink_perl.pl Total: 0.395
+8978 10000 unlink_perl.pl Total: 0.844
+13467 10000 unlink_perl.pl Total: 1.392
+17956 10000 unlink_perl.pl Total: 2.210
+35913 10000 unlink_perl.pl Total: 4.107
+44892 10000 unlink_perl.pl Total: 5.133
+89784 1000 unlink_perl.pl Total: 10.453
+134676 1000 unlink_perl.pl Total: 18.392
+179568 1000 unlink_perl.pl Total: 22.803
+359137 1000 unlink_perl.pl Total: 48.311
+448921 10000 unlink_perl.pl Total: 56.260
+448921 1000 unlink_perl.pl Total: 60.244
+897843 10000 unlink_perl.pl Total: 118.603
+1346764 10000 unlink_perl.pl Total: 176.203
+1795686 10000 unlink_perl.pl Total: 244.439
+2244608 10000 unlink_perl.pl Total: 193.313
