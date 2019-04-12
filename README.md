@@ -49,7 +49,7 @@ Running doit.sh on the provisioned volume. Raw sesults are in FLEX/
 
 ### SSD Samsung EVO 850 250GB SSD.
 
-Something very unusual happens here. find . -delete is slower and shows a non-exponential curve. Reproducible. Needs investigation.
+Something very unusual happens here. find . -delete is slower and shows a non-exponential curve. Disk is used as the main operating system disk and this may have an impact on the tests. Treat with caution after reviewing the Intel results below.
 
 ![Small file deletion Flex](deleting_small_files_evo_ssd.png "Deletion of small files Samsung EVO 850")
 
