@@ -41,13 +41,13 @@ Drilling down into the results which are less than 800 seconds:
 
 ### AWS t2-micro 100GB Provisioned SSD volume
 
-Running doit.sh on the provisioned volume. Raw sesults are in AWS/
+Running doit.sh on the provisioned volume. Raw results are in AWS/
 
 ![Small file deletion AWS](deleting_small_files_aws.png "Deletion of small files AWS")
 
 ### ECloud Flex 100GB Provisioned SSD volume
 
-Running doit.sh on the provisioned volume. Raw sesults are in FLEX/
+Running doit.sh on the provisioned volume. Raw results are in FLEX/
 
 ![Small file deletion Flex](deleting_small_files_flex.png "Deletion of small files Flex")
 
@@ -65,6 +65,6 @@ Unusual tail off for rsync, but find looks to be the best method here
 
 ### Hetzner 100GB SSD.
 
-Running doit.sh on the provisioned volume. Raw sesults are in HETZNER/
+Running doit.sh on the provisioned volume. Raw results are in HETZNER/
 
 ![Small file deletion Flex](deleting_small_files_hetzner.png "Deletion of small files Hetzner")
