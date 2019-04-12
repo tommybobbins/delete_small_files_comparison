@@ -59,7 +59,7 @@ Something very unusual happens here. find . -delete is slower and shows a non-ex
 
 ### Intel 120GB SSDSC2BW120A4 SSD.
 
-Unusual tail off for rsync, but find looks to be the best method here
+Unusual tail off for rsync. This is due to the filesystem becoming full during the rsync and unlink_perl operations.Reviewing this find looks to be the best method here. 
 
 ![Small file deletion Flex](deleting_small_files_intelssd.png "Deletion of small files Samsung EVO 850")
 

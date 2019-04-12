@@ -1,0 +1,7 @@
+find_delete.sh
+2244608 10000
+unlink_perl.pl
+split: xzzzczsuw: No space left on device
+2244608 10000
+rsync_empty_dir.sh
+
