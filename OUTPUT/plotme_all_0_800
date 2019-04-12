@@ -1,0 +1,26 @@
+set xlabel "Number of small files"
+set ylabel "Time to remove small files (s)"
+set title "Physical/Flex file removal"
+set key left
+set output "deleting_small_files_all_y800.png"
+set term png
+
+plot [0:2500000][0:800] \
+     'FLEX/find_delete_flex.txt' using 1:5  \
+      title "Flex:find" , \
+     'FLEX/rsync_empty_flex.txt' using 1:5  \
+      title "Flex:rsync" , \
+     'FLEX/unlink_perl_flex.txt' using 1:5  \
+      title "Flex:Perl" , \
+     'EVO/find_delete_evo.txt' using 1:5  \
+      title "EVO:find" , \
+     'EVO/rsync_empty_evo.txt' using 1:5  \
+      title "EVO:rsync" , \
+     'EVO/unlink_perl_evo.txt' using 1:5  \
+      title "EVO:Perl" , \
+     'INTELSSD/find_delete_intelssd.txt' using 1:5  \
+      title "Intel SSD:find" , \
+     'INTELSSD/rsync_empty_intelssd.txt' using 1:5  \
+      title "Intel SSD:rsync" , \
+     'INTELSSD/unlink_perl_intelssd.txt' using 1:5  \
+      title "Intel SSD:Perl"

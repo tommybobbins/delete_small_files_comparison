@@ -35,6 +35,10 @@ For the below graphs, the lowest value of y is preferential as it represents sec
 
 ![Small file deletion platform comparison](deleting_small_files_all.png "Deletion of small files multi-platform")
 
+Drilling down into the results which are less than 800 seconds:
+
+![Small file deletion platform comparison](deleting_small_files_all_y800.png "Deletion of small files multi-platform")
+
 ### AWS t2-micro 100GB Provisioned SSD volume
 
 Running doit.sh on the provisioned volume. Raw sesults are in AWS/
