@@ -59,6 +59,8 @@ Something very unusual happens here. find . -delete is slower and shows a non-ex
 
 ### Intel 120GB SSDSC2BW120A4 SSD.
 
+Run on an XFS filesystem
+
 #### 1st run
 
 Unusual tail off for rsync. This is due to the filesystem becoming full during the rsync and unlink_perl operations.Reviewing this find looks to be the best method here. 
