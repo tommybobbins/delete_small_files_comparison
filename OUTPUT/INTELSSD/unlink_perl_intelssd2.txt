@@ -1,0 +1,35 @@
+     'unlink_perl_intelssd.txt' using 1:5 notitle with points
+     'unlink_perl_intelssd.txt' using 1:5 smooth csplines \
+4489 10000 unlink_perl.pl Total: 0.376
+4489 10000 unlink_perl.pl Total: 0.395
+8978 10000 unlink_perl.pl Total: 0.747
+8978 10000 unlink_perl.pl Total: 0.844
+13467 10000 unlink_perl.pl Total: 1.338
+13467 10000 unlink_perl.pl Total: 1.392
+17956 10000 unlink_perl.pl Total: 2.073
+17956 10000 unlink_perl.pl Total: 2.210
+35913 10000 unlink_perl.pl Total: 3.801
+35913 10000 unlink_perl.pl Total: 4.107
+44892 10000 unlink_perl.pl Total: 5.133
+44892 10000 unlink_perl.pl Total: 5.343
+89784 1000 unlink_perl.pl Total: 10.453
+89784 1000 unlink_perl.pl Total: 11.386
+134676 1000 unlink_perl.pl Total: 16.194
+134676 1000 unlink_perl.pl Total: 18.392
+179568 1000 unlink_perl.pl Total: 22.803
+179568 1000 unlink_perl.pl Total: 25.725
+359137 1000 unlink_perl.pl Total: 48.311
+359137 1000 unlink_perl.pl Total: 49.994
+448921 10000 unlink_perl.pl Total: 56.260
+448921 10000 unlink_perl.pl Total: 60.785
+448921 1000 unlink_perl.pl Total: 58.232
+448921 1000 unlink_perl.pl Total: 60.244
+897843 10000 unlink_perl.pl Total: 118.603
+897843 10000 unlink_perl.pl Total: 119.583
+1346764 10000 unlink_perl.pl Total: 176.203
+1346764 10000 unlink_perl.pl Total: 183.699
+1795686 10000 unlink_perl.pl Total: 243.886
+1795686 10000 unlink_perl.pl Total: 244.439
+1795686 10000 unlink_perl.pl Total: 247.261
+2020147 10000 unlink_perl.pl Total: 257.240
+2244608 10000 unlink_perl.pl Total: 193.313

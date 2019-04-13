@@ -1,0 +1,35 @@
+     'find_delete_intelssd.txt' using 1:5 notitle with points, \
+     'find_delete_intelssd.txt' using 1:5 smooth csplines \
+4489 10000 find_delete.sh Total: 0.353
+4489 10000 find_delete.sh Total: 0.365
+8978 10000 find_delete.sh Total: 0.644
+8978 10000 find_delete.sh Total: 0.815
+13467 10000 find_delete.sh Total: 0.999
+13467 10000 find_delete.sh Total: 1.216
+17956 10000 find_delete.sh Total: 1.705
+17956 10000 find_delete.sh Total: 1.715
+35913 10000 find_delete.sh Total: 3.161
+35913 10000 find_delete.sh Total: 3.230
+44892 10000 find_delete.sh Total: 4.133
+44892 10000 find_delete.sh Total: 4.239
+89784 1000 find_delete.sh Total: 11.455
+89784 1000 find_delete.sh Total: 9.271
+134676 1000 find_delete.sh Total: 15.389
+134676 1000 find_delete.sh Total: 15.973
+179568 1000 find_delete.sh Total: 21.998
+179568 1000 find_delete.sh Total: 22.252
+359137 1000 find_delete.sh Total: 42.875
+359137 1000 find_delete.sh Total: 46.125
+448921 10000 find_delete.sh Total: 52.248
+448921 10000 find_delete.sh Total: 57.369
+448921 1000 find_delete.sh Total: 55.835
+448921 1000 find_delete.sh Total: 56.072
+897843 10000 find_delete.sh Total: 106.956
+897843 10000 find_delete.sh Total: 114.847
+1346764 10000 find_delete.sh Total: 166.501
+1346764 10000 find_delete.sh Total: 170.391
+1795686 10000 find_delete.sh Total: 225.205
+1795686 10000 find_delete.sh Total: 228.195
+1795686 10000 find_delete.sh Total: 232.429
+2020147 10000 find_delete.sh Total: 258.094
+2244608 10000 find_delete.sh Total: 290.609
