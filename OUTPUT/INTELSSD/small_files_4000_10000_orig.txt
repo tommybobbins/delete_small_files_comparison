@@ -1,3 +1,0 @@
-Numfiles   Size     Method     Time
-1795686 10000 find_delete.sh Total: 225.205
-1795686 10000 unlink_perl.pl Total: 247.261
