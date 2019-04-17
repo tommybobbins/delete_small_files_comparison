@@ -69,9 +69,16 @@ Unusual tail off for rsync. This is due to the filesystem becoming full during t
 
 #### Second run
 
-Run to see what happens at 2 million files. It looks like the performance of Perl is better than find at this point. More investigation required.
+Run to see what happens at 2 million files.More investigation required.
 
 ![Small file deletion Flex](deleting_small_files_intelssd2.png "Deletion of small files Intel SSD")
+
+#### Third run
+
+Presented without explanation.
+ 
+![Small file deletion Flex](deleting_small_files_intelssd3.png "Deletion of small files Intel SSD")
+
 
 ### Hetzner 100GB SSD.
 
