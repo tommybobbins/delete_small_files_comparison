@@ -81,7 +81,6 @@ run_tests 1000 10000
 run_tests 2000 10000
 run_tests 3000 10000
 run_tests 4000 10000
-run_tests 5000 10000
 rsync -av /tmp/small_files* OUTPUT/${OUTPUTDIR}/
 grep -h find_delete OUTPUT/$OUTPUTDIR/small*.txt | sort -h > find_delete_$OUTLC.txt
 grep -h rsync_empty OUTPUT/$OUTPUTDIR/small*.txt | sort -h >rsync_empty_$OUTLC.txt
