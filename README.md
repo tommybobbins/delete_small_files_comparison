@@ -75,7 +75,7 @@ Run to see what happens at 2 million files.More investigation required.
 
 #### Third run
 
-Presented without explanation.
+Disk was reformatted as EXT4 and deletion re-run. This shows that rsync is the fastest method.
  
 ![Small file deletion Flex](deleting_small_files_intelssd3.png "Deletion of small files Intel SSD")
 
