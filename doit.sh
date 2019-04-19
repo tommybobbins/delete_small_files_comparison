@@ -1,6 +1,6 @@
 #!/bin/bash
 ####Put name of output directory here
-OUTPUTDIR=EVO
+OUTPUTDIR=SEAGATE
 
 create_files () {
 DIRECTORY_TO_BREAK="BIGDIR"
