@@ -66,6 +66,7 @@ if [ ! -d OUTPUT/${OUTPUTDIR} ]
 then
     mkdir OUTPUT/${OUTPUTDIR}
 fi
+rm -f /tmp/small_files*.txt
 run_tests 10 10000
 run_tests 20 10000
 run_tests 30 10000

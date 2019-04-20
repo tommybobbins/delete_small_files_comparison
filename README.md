@@ -65,21 +65,31 @@ Run on an XFS filesystem
 
 Unusual tail off for rsync. This is due to the filesystem becoming full during the rsync and unlink_perl operations.Reviewing this find looks to be the best method here. 
 
-![Small file deletion Flex](deleting_small_files_intelssd.png "Deletion of small files Intel SSD")
+![Small file deletion Intel_SSD](deleting_small_files_intelssd.png "Deletion of small files Intel SSD")
 
 #### Second run
 
 Run to see what happens at 2 million files.More investigation required.
 
-![Small file deletion Flex](deleting_small_files_intelssd2.png "Deletion of small files Intel SSD")
+![Small file deletion Intel_SSD](deleting_small_files_intelssd2.png "Deletion of small files Intel SSD")
 
 #### Third run
 
 Disk was reformatted as EXT4 and deletion re-run. This shows that rsync is the fastest method.
  
-![Small file deletion Flex](deleting_small_files_intelssd3.png "Deletion of small files Intel SSD")
+![Small file deletion Intel_SSD](deleting_small_files_intelssd3.png "Deletion of small files Intel SSD")
 
+#### SATA disk HP 250GB SATA disk VB0250EAVER
 
+Disk was formatted as EXT4
+ 
+![Small file deletion SATA](deleting_small_files_seagate.png "Deletion of small files HP SATA Disk (Seagate)")
+
+#### VMWare ISCSI disk
+
+Disk was formatted as EXT4
+ 
+![Small file deletion VMWare](deleting_small_files_vmware_iscsi.png "Deletion of small files VMWare")
 ### Hetzner 100GB SSD.
 
 Running doit.sh on the provisioned volume. Raw results are in HETZNER/
