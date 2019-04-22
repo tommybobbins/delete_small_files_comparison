@@ -1,34 +1,17 @@
-     'unlink_perl_evo.txt' using 1:5 notitle with points
-     'unlink_perl_evo.txt' using 1:5 smooth csplines \
-4489 10000 unlink_perl.pl Total: 0.112
 4489 10000 unlink_perl.pl Total: 0.433
-8978 10000 unlink_perl.pl Total: 0.211
 8978 10000 unlink_perl.pl Total: 0.610
-13467 10000 unlink_perl.pl Total: 0.314
 13467 10000 unlink_perl.pl Total: 0.833
-17956 10000 unlink_perl.pl Total: 0.407
 17956 10000 unlink_perl.pl Total: 1.036
-35913 10000 unlink_perl.pl Total: 0.825
 35913 10000 unlink_perl.pl Total: 1.936
-44892 10000 unlink_perl.pl Total: 1.030
 44892 10000 unlink_perl.pl Total: 2.397
-89784 1000 unlink_perl.pl Total: 2.163
 89784 1000 unlink_perl.pl Total: 5.318
 134676 1000 unlink_perl.pl Total: 13.415
-134676 1000 unlink_perl.pl Total: 3.184
-179568 1000 unlink_perl.pl Total: 4.370
 179568 1000 unlink_perl.pl Total: 50.199
 359137 1000 unlink_perl.pl Total: 589.641
-359137 1000 unlink_perl.pl Total: 9.576
 448921 10000 unlink_perl.pl Total: 1005.849
-448921 10000 unlink_perl.pl Total: 19.367
-448921 1000 unlink_perl.pl Total: 19.702
 448921 1000 unlink_perl.pl Total: 996.134
 897843 10000 unlink_perl.pl Total: 3121.471
-897843 10000 unlink_perl.pl Total: 58.556
-1346764 10000 unlink_perl.pl Total: 205.854
 1346764 10000 unlink_perl.pl Total: 5544.645
-1795686 10000 unlink_perl.pl Total: 248.398
 1795686 10000 unlink_perl.pl Total: 8094.461
 1907916 10000 unlink_perl.pl Total: 8738.708
 2020147 10000 unlink_perl.pl Total: 9304.617
@@ -38,4 +21,3 @@
 2199715 10000 unlink_perl.pl Total: 10464.343
 2222161 10000 unlink_perl.pl Total: 10546.911
 2244608 10000 unlink_perl.pl Total: 10742.956
-2244608 10000 unlink_perl.pl Total: 449.020
