@@ -1,0 +1,25 @@
+set xlabel "Number of small files"
+set ylabel "Time to remove small files (s)"
+set title "Intel SSDSC2BW120A4 SSD file removal. Fourth run"
+set key left
+set output "deleting_small_files_intelssd4.png"
+set term png
+
+#plot [0:2500000][0:700] \
+#     'find_delete_intelssd.txt' using 1:5 with points, \
+#     'rsync_empty_intelssd.txt' using 1:5 with points, \
+#     'unlink_perl_intelssd.txt' using 1:5 with points, \
+#     'find_delete_intel_ssd4.txt.txt' using 1:5 with points, \
+#     'rsync_empty_intel_ssd4.txt.txt' using 1:5 with points, \
+#     'unlink_perl_intel_ssd4.txt.txt' using 1:5 with points
+
+plot [0:2500000][0:700] \
+     'find_delete_intel_ssd4.txt.txt' using 1:5 smooth csplines \
+      title "Intel SSD2:find" , \
+     'find_delete_intel_ssd4.txt.txt' using 1:5 notitle with points, \
+     'rsync_empty_intel_ssd4.txt.txt' using 1:5 smooth csplines \
+      title "Intel SSD2:rsync" , \
+     'rsync_empty_intel_ssd4.txt.txt' using 1:5 notitle with points, \
+     'unlink_perl_intel_ssd4.txt.txt' using 1:5 smooth csplines \
+      title "Intel SSD2:Perl", \
+     'unlink_perl_intel_ssd4.txt.txt' using 1:5 notitle with points
