@@ -1,0 +1,17 @@
+set xlabel "Number of small files"
+set ylabel "Time to remove small files (s)"
+set title "Hitachi HDT721010SLA360 magnetic disk file removal"
+set key left
+set output "deleting_small_files_hgst.png"
+set term png
+
+plot [0:2500000][0:800] \
+     'find_delete_hgst.txt' using 1:5 smooth csplines \
+      title "SSD:find" , \
+     'find_delete_hgst.txt' using 1:5 notitle with points, \
+     'rsync_empty_hgst.txt' using 1:5 smooth csplines \
+      title "SSD:rsync" , \
+     'rsync_empty_hgst.txt' using 1:5 notitle with points, \
+     'unlink_perl_hgst.txt' using 1:5 smooth csplines \
+      title "SSD:Perl", \
+     'unlink_perl_hgst.txt' using 1:5 notitle with points
