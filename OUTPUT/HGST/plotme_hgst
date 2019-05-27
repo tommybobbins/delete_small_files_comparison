@@ -7,11 +7,11 @@ set term png
 
 plot [0:2500000][0:800] \
      'find_delete_hgst.txt' using 1:5 smooth csplines \
-      title "SSD:find" , \
+      title "HGST HDD:find" , \
      'find_delete_hgst.txt' using 1:5 notitle with points, \
      'rsync_empty_hgst.txt' using 1:5 smooth csplines \
-      title "SSD:rsync" , \
+      title "HGST HDD:rsync" , \
      'rsync_empty_hgst.txt' using 1:5 notitle with points, \
      'unlink_perl_hgst.txt' using 1:5 smooth csplines \
-      title "SSD:Perl", \
+      title "HGST HDD:Perl", \
      'unlink_perl_hgst.txt' using 1:5 notitle with points

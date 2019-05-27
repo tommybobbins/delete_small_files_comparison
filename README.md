@@ -85,6 +85,12 @@ Disk was formatted as EXT4
  
 ![Small file deletion SATA](deleting_small_files_seagate.png "Deletion of small files HP SATA Disk (Seagate)")
 
+#### HGST dissk 1TB
+
+![Small file deletion SATA](deleting_small_files_hgst.png "Deletion of small files HGST")
+
+Disk was formatted as EXT4
+
 #### VMWare ISCSI disk
 
 Disk was formatted as EXT4
