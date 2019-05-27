@@ -15,11 +15,11 @@ set term png
 
 plot [0:2500000][0:3000] \
      'find_delete_seagate.txt' using 1:5 smooth csplines \
-      title "Intel SSD2:find" , \
+      title "Seagate HDD:find" , \
      'find_delete_seagate.txt' using 1:5 notitle with points, \
      'rsync_empty_seagate.txt' using 1:5 smooth csplines \
-      title "Intel SSD2:rsync" , \
+      title "Seagate HDD:rsync" , \
      'rsync_empty_seagate.txt' using 1:5 notitle with points, \
      'unlink_perl_seagate.txt' using 1:5 smooth csplines \
-      title "Intel SSD2:Perl", \
+      title "Seagate HDD:Perl", \
      'unlink_perl_seagate.txt' using 1:5 notitle with points
